@@ -28,3 +28,15 @@ pip install pyodbc
 Users can then install all dependencies with:
 ```bash
 pip install -r requirements.txt
+
+## Database Tables
+
+This application uses the following tables in SQL Server:
+
+- **dbo.Calendar**: Contains calendar-related data..
+- **dbo.Inventory_ICT**: Contains ICT-related inventory information.
+- **dbo.Material_Type**: Stores different material types.
+- **dbo.Target_Table**: Contains target-related information.
+- **dbo.two_plants_inventory_ICT**: Contains inventory data for two plants.
+
+
