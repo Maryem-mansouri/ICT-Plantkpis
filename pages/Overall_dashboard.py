@@ -50,7 +50,7 @@ def layout():
                                 children=[
                                     html.Div(
                                         [
-                                            html.P("Maryem ELMANSOURI", className="user-name", style={"margin-bottom": "0", "font-weight": "bold", "font-size": "0.8em"}),
+                                            html.P("User Name", className="user-name", style={"margin-bottom": "0", "font-weight": "bold", "font-size": "0.8em"}),
                                             html.P("Data Analyst", className="user-role", style={"margin-bottom": "0", "font-size": "0.7em"}),
                                             html.P("IT Department", className="user-department", style={"margin-top": "0", "font-size": "0.7em"})
                                         ],
