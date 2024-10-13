@@ -3,7 +3,7 @@ from datetime import datetime
 import logging
 
 # Read the Excel files into pandas DataFrames
-STR_file_path = r'C:\Users\TE582412\Desktop\Plant KPIS\ICT\DSCD - STR Standard report FY24 - 2.0.xlsx'
+STR_file_path = r'..\data\DSCD - STR Standard report FY24 - 2.0.xlsx'
 STR = pd.read_excel(STR_file_path, sheet_name='Delivery Scorecard-STR')
 STR_GPL = pd.read_excel(STR_file_path, sheet_name='Data')
 
