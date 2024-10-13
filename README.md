@@ -39,4 +39,6 @@ This application uses the following tables in SQL Server:
 - **dbo.Target_Table**: Contains target-related information.
 - **dbo.two_plants_inventory_ICT**: Contains inventory data for two plants.
 
+the application uses the Inventory table from the database , but for the STR it uses the excel file located in the data directory !
+
 
